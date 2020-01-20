@@ -1,0 +1,16 @@
+/* Garrett Matthews */
+
+.half {width: 50%;}
+td {border-width: medium;border-color: black; border-style: solid; padding: 10px; border-collapse: collapse; width: 25%;}
+table{border-width: medium; border-style: solid; border-collapse: collapse; table-layout: fixed; width: 15%;}
+.two {background-color: cadetblue;}
+.four {background-color: cornflowerblue;}
+.eight {background-color: cyan;}
+.sixteen {background-color: darkcyan;}
+.sixtyfour {background-color: darkslateblue;}
+.center {text-align: center;}
+.large-font {font-size: 400%; text-align: center;}
+.center-italics {font-style: italic; text-align: center; font-size: 95%;}
+.descriptive-font {font-family: 'Courier New', Courier, monospace; text-align: center;}
+.image-center {display: block; margin-left: auto; margin-right: auto; width: 25%; height: 25%}
+.challenge {font-style: italic; font-weight: bolder;}
