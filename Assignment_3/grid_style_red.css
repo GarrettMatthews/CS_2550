@@ -1,0 +1,22 @@
+/***************************************
+*
+* Style Sheet for the 2048 Game Red
+* Garrett Matthews
+*
+***************************************/
+
+td {border-width: medium;border-color: black; border-style: solid; padding: 30px; border-collapse: collapse; width: 25%;}
+table{border-width: medium; border-style: solid; border-collapse: collapse;}
+.blank{background-color: white; color: black;}
+.two{background-color: #ff0000;color: white;}
+.four{background-color: #e60000;color: white;}
+.eight{background-color: #cd0000;color: white;}
+.sixteen{background-color: #b40000;color: white;}
+.thirtytwo{background-color: #9b0000;color: white;}
+.sixtyfour{background-color: #820000;color: white;}
+.onetwentyeight{background-color: #690000;color: white;}
+.twofivesix{background-color: #500000;color: white;}
+.fivetwelve{background-color: #370000; color: white;}
+.tentwofour{background-color: #1e0000;color: white;}
+.twentyfoureight{background-color: black; color: white;}
+.score{position: relative; left: 190px;}

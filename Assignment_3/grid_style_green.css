@@ -1,0 +1,22 @@
+/***************************************
+*
+* Style Sheet for the 2048 Game Green
+* Garrett Matthews
+*
+***************************************/
+
+td {border-width: medium;border-color: black; border-style: solid; padding: 30px; border-collapse: collapse; width: 25%;}
+table{border-width: medium; border-style: solid; border-collapse: collapse;}
+.blank{background-color: white; color: black;}
+.two{background-color: #00ff00;color: white;}
+.four{background-color: #00e600;color: white;}
+.eight{background-color: #00cd00;color: white;}
+.sixteen{background-color: #00b400;color: white;}
+.thirtytwo{background-color: #009b00;color: white;}
+.sixtyfour{background-color: #008200;color: white;}
+.onetwentyeight{background-color: #006900;color: white;}
+.twofivesix{background-color: #005000;color: white;}
+.fivetwelve{background-color: #003700; color: white;}
+.tentwofour{background-color: #001e00;color: white;}
+.twentyfoureight{background-color: black; color: white;}
+.score{position: relative; left: 190px;}

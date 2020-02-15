@@ -1,0 +1,13 @@
+/*********************************
+*
+* Stle Sheet for the index page
+* Garrett Matthews
+*
+*********************************/
+
+.center{text-align: center;}
+.welcome{text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-style: italic;}
+.red{color: #ff0000;}
+.green{color: #00ff00;}
+.blue{color: #0000ff;}
+.half{width: 50%;}
