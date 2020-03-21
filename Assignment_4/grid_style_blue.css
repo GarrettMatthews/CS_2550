@@ -1,0 +1,25 @@
+/***************************************
+*
+* Style Sheet for the 2048 Game Blue
+* Garrett Matthews
+*
+***************************************/
+
+td {border-width: medium;border-color: black; border-style: solid; padding: 50px; border-collapse: collapse; width: 25%;}
+table{border-width: medium; border-style: solid; border-collapse: collapse;}
+.blank{background-color: white; color: black;}
+.two{background-color: #0000ff;color: white;}
+.four{background-color: #0000e6;color: white;}
+.eight{background-color: #0000cd;color: white;}
+.sixteen{background-color: #0000b4;color: white;}
+.thirtytwo{background-color: #00009b;color: white;}
+.sixtyfour{background-color: #000082;color: white;}
+.onetwentyeight{background-color: #000069;color: white;}
+.twofivesix{background-color: #000050;color: white;}
+.fivetwelve{background-color: #000037; color: white;}
+.tentwofour{background-color: #00001e;color: white;}
+.twentyfoureight{background-color: black; color: white;}
+.score{position: relative; left: 100px;}
+.left{float: left; margin-left: 20px;}
+.right{float: right; margin-right: 20px;}
+.noFloat{clear: both;}
