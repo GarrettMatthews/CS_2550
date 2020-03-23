@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Garrett Matthews">
+        <meta name="description" content="Sample for the game 2048">
+        <title>Play 2048</title>
+        <link rel="stylesheet" href="index.css">
+        <script src = "view.js"></script>
+    </head>
+    <body>
+        <h1 class="center">2048!</h1>
+        <hr class="half">
+        <p class=center>
+            <input id="username" type="text" placeholder="Your Username">
+            <input id="password" type="password" placeholder="Your Password">
+            <button onclick="login()">Login</button>
+            <div id="failed" class="hidden">Error: Incorrect username or password combination. Please try again.</div>
+        </p>
+        <div id="view"></div>
+        <p id="success" class="center hidden">
+            <a href="play_2048_blue.html" target=_self class="blue">Blue</a>
+        </p>
+    </body>
+</html>
