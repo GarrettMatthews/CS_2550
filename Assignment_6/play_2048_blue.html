@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Garrett Matthews">
+        <meta name="description" content="Sample for the game 2048">
+        <title>Play 2048 Blue</title>
+        <link rel="stylesheet" href="grid_style_blue.css">
+        <script src = "view.js"></script>
+        <script src = "model.js"></script>
+    </head>
+    <body onload="showGrid()";>
+        <h1>Play 2048!</h1>
+        <hr>
+        <div id = "score" class="score"></div>
+        <table id="genGrid" class="board"></table>
+        <hr class="noFloat">
+        <button onclick="restart()">Restart</button>
+        <label for="moveDirection">Choose a direction to shift the contents of the board: </label>
+        <select id="moveDirection">
+            <option>Up</option>
+            <option>Down</option>
+            <option>Left</option>
+            <option>Right</option>
+        </select>
+        <button onclick="moveBoard()">Move!</button>
+        <button onclick="load()">Load Game</button>
+    </body>
+</html>
